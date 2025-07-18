@@ -1,6 +1,87 @@
-<html>
-  <body>
-    <h1>Your Name Here</h1>
-    <h2> พยายามแสดงภาษาไทย</h2>
- </body>
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donut CMU</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff8f0;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #ff69b4;
+        }
+        header img {
+            width: 120px;
+        }
+        h1 {
+            margin: 10px 0;
+            font-size: 2em;
+        }
+        .tagline {
+            font-size: 1.2em;
+            color: #fff;
+        }
+        .products {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .product {
+            background-color: #fff;
+            border: 1px solid #eee;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 15px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .price {
+            font-size: 1.2em;
+            color: #e91e63;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="logo.png" alt="โลโก้ร้านโดนัท">
+    <h1>Donut CMU</h1>
+    <p class="tagline">โดนัทหวานหอม สดใหม่ทุกวัน สำหรับชาว มช. เท่านั้น!</p>
+</header>
+
+<section class="products">
+    <div class="product">
+        <img src="donut1.jpg" alt="โดนัทสตรอเบอร์รี่">
+        <h2>โดนัทสตรอเบอร์รี่</h2>
+        <p class="price">ราคา 25 บาท</p>
+    </div>
+    <div class="product">
+        <img src="donut2.jpg" alt="โดนัทช็อกโกแลต">
+        <h2>โดนัทช็อกโกแลต</h2>
+        <p class="price">ราคา 30 บาท</p>
+    </div>
+    <div class="product">
+        <img src="donut3.jpg" alt="โดนัทน้ำตาล">
+        <h2>โดนัทน้ำตาลคลาสสิก</h2>
+        <p class="price">ราคา 20 บาท</p>
+    </div>
+</section>
+
+</body>
 </html>
+
